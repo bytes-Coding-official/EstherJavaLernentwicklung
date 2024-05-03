@@ -4,7 +4,6 @@ public class TestKlasse {
 
     public static void main(String[] args) {
 
-
         /* Wird nicht gehen-> Weil abstrakt!       Wohnhaus wohnhaus = new Wohnhaus() ;*/
 
         Mietshaus mietshaus = new Mietshaus("Hauptstraße", 1, "Hans", Typ.DENKMAL_GESCHUESTES_GEBAUEDE, 5);
