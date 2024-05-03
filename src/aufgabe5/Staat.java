@@ -1,6 +1,7 @@
+package aufgabe5;
 
 /**
- * Eine Klasse die eine Staat repräsentiert. Enthält die Attribute Name, Hauptstadt, Fläche
+ * Eine Klasse die eine aufgabe5.Staat repräsentiert. Enthält die Attribute Name, Hauptstadt, Fläche
  * und Einwohnerzahl. Enthält die Methode zur Ausgabe und zur Aktualisierung der Einwohnerzahl.
  *
  */
