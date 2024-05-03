@@ -1,9 +1,9 @@
 package aufgabe6;
 
 public class Mietshaus extends Wohnhaus{
-    
-    
-    private int anzahlWohnungen;
+
+
+    private final int anzahlWohnungen;
 
     public Mietshaus(String straße, int hausnummer, String eigentuemer, Typ typ, int anzahlWohnungen) {
         super(straße, hausnummer, eigentuemer, typ);
@@ -12,7 +12,7 @@ public class Mietshaus extends Wohnhaus{
 
     @Override
     public String toString() {
-        return "Mietshaus{" +
+        return super.toString() + "Mietshaus{" +
                 "anzahlWohnungen=" + anzahlWohnungen +
                 '}';
     }

@@ -2,8 +2,8 @@ package aufgabe6;
 
 public abstract class Gebaeude {
 
-    private String straße;
-    private int hausnummer;
+    private final String straße;
+    private final int hausnummer;
 
     
     public Gebaeude(String straße, int hausnummer) {

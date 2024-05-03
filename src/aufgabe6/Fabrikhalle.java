@@ -1,8 +1,8 @@
 package aufgabe6;
 
 public class Fabrikhalle extends Gebaeude {
-    
-    private String firmennamen;
+
+    private final String firmennamen;
 
     public Fabrikhalle(String straße, int hausnummer, String firmennamen) {
         super(straße, hausnummer);
@@ -11,7 +11,7 @@ public class Fabrikhalle extends Gebaeude {
 
     @Override
     public String toString() {
-        return "Fabrikhalle{" +
+        return super.toString() + "Fabrikhalle{" +
                 "firmennamen='" + firmennamen + '\'' +
                 '}';
     }
