@@ -20,13 +20,14 @@ public  abstract class Term {
         while (true){
             var x2 = x1;
             x1 = new Minus(
-                    x0, 
+                    term, 
                     new GeteiltDurch(
-                     term(x0).ableiten()
+                     term,
+                            term.ableiten()
                     )
-            ).auswerten(0);
+            ).auswerten(x0);
             
-            x0=x1;
+            x0=x2;
             
             if (Math.abs(x1-x0)< 10e-14) return x1;
     
